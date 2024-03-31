@@ -40,13 +40,13 @@ In our created Azure Virtual Machine we will need to Install/Enable IIS. This ca
 ![20240318_234637](https://github.com/tylermartin12368/osticket-prereqs/assets/161632103/07553459-b933-41d6-be30-c097af495c9a)
 </p>
 <p>
-In order to get OSticket to function, we will need to install a bunch of different files like PHP Manager for IIS and Rewrite Module. All these files play a role in making OSticket run correctly. Once we have all the files needed, then we can open up IIS as an Admin and register PHP in IIS. This will then finally allow us to start downloading OSticket and once installed we can restart IIS and it should appear. In IIS go to Sites, Default Web Site, then OSticket folder. On the right of IIS in the Manage Folder area their should be a Browse 80 that can be clicked on and that will open up OSticket Installer on your web browser. 
+In order to get OSticket to function, we will need to install a bunch of different files like PHP Manager for IIS and Rewrite Module. All these files play a role in making OSticket run correctly. Once we have all the files needed, then we can open up IIS as an Admin and register PHP in IIS. This will then finally allow us to start downloading OSticket and once installed we can restart IIS and it should appear. In IIS go to Sites, Default Web Site, then OSticket folder. On the right of IIS in the Manage Folder area their should be a Browse 80 that can be clicked on and that will open up OSticket Installer on your web browser. Before we begin setting up the rest of OSticket through the broweser, a few extensions within IIS will need to be enabled, so certain features will be able to run in OSticket. The extensions that need to be enabled are located in PHP Extensions and they are called php_imap.dll, php_intl.dll, and php_opcache.dll. Go back to the browser with OSticket and refresh the site and that will enable the features that we want enabled. All that will be left is to go to File Explorer and Rename ost-sampleconfig.php to ost-config.php and let everyone have access to that file.  
 </p>
 <br />
 
 ![20240318_235648](https://github.com/tylermartin12368/osticket-prereqs/assets/161632103/8f9a88c8-1830-4092-b499-86d92c9e54cb)
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+OSticket can now be finished setting up through the web browser. A name will need to be created for the Helpdesk, a default email that will receive all emails from customers, and an Admin User that we can use to create Agents and Users. After getting through those sections, then you will get to the Database Settings. This is where HeidiSQL will need to be installed and that allows us to connect to the SQL Server and set up a database in HeidiSQL that OSticket will use. Once all the information has been put in, then we can click on "Install Now" which will finish up the installation of OSticket.   
 </p>
 <br />
