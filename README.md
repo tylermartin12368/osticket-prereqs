@@ -33,7 +33,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 ![20240318_230117 (1)](https://github.com/tylermartin12368/osticket-prereqs/assets/161632103/981c9ace-8b10-4039-a90e-6a192eda83af)
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In our created Azure Virtual Machine we will need to Install/Enable IIS. This can be done by opening up Control Panel and going to Programs. Once in we can go to Turn Windows feature on and off and locate Internet Information Services (IIS) and check the box to turn it on. Other things within Internet Information Services will need to be checked including all boxes in the Common HTTP Features and in Application Development Features the CGI will need to also be turned on. When done it will start installing IIS. We can check to make sure this worked by going to a web browser and type 127.0.0.1 and when searched it will pop up Internet Information Services.  
 </p>
 <br />
 
