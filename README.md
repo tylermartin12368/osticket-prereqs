@@ -47,6 +47,6 @@ In order to get OSticket to function, we will need to install a bunch of differe
 ![20240318_235648](https://github.com/tylermartin12368/osticket-prereqs/assets/161632103/8f9a88c8-1830-4092-b499-86d92c9e54cb)
 </p>
 <p>
-OSticket can now be finished setting up through the web browser. A name will need to be created for the Helpdesk, a default email that will receive all emails from customers, and an Admin User that we can use to create Agents and Users. After getting through those sections, then you will get to the Database Settings. This is where HeidiSQL will need to be installed and that allows us to connect to the SQL Server and set up a database in HeidiSQL that OSticket will use. Once all the information has been put in, then we can click on "Install Now" which will finish up the installation of OSticket.   
+OSticket can now be finished setting up through the web browser. A name will need to be created for the Helpdesk, a default email that will receive all emails from customers, and an Admin User that we can use to create Agents and Users. After getting through those sections, then you will get to the Database Settings. This is where HeidiSQL will need to be installed. IT will allow us to connect to the SQL Server and set up a database in HeidiSQL that OSticket will use. Once all the information has been put in, then we can click on "Install Now" which will finish up the installation of OSticket.   
 </p>
 <br />
